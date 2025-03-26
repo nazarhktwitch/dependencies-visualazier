@@ -37,16 +37,25 @@ This tool scans your project and generates an interactive graph showing how file
 1. **Install Python 3.7+** (if not already installed)  
 2. **Install dependencies:**  
    ```bash
-   pip install pyvis
+   pip install pyvis tqdm
    ```
-3. **Download the script (Or .zip):**  
+   **Or using requirements.txt (First complete step 3):**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Download the script (Or .zip):**  
    ```bash
    curl -O https://raw.githubusercontent.com/nazarhktwitch/dependencies-visualizer/main/main.py
    ```
 
-   **Or with Git:**
+   **Or with Git (You must have Git installed in your system):**
    ```bash
    git clone https://github.com/nazarhktwitch/dependencies-visualizer/
+   ```
+
+   **(For Git method (Windows):**
+   ```bash
+   cd dependencies-visualizer
    ```
 
 ---
